@@ -18,7 +18,9 @@ def stocks():
     stocks = ['Apple', 'Microsoft']
     return render_template('stocks.html', stocks=stocks)
 
-
+@app.route('/team5m1')
+def team5m1():
+    return "Greggory"
 
 if __name__ == "__main__": app.run(debug=True)
 
